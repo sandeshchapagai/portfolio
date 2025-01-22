@@ -17,12 +17,15 @@ function App() {
     const handleModeChange = () => {
         if (mode === 'dark') {
             setMode('light');
+
+
         } else {
             setMode('dark');
-            
+
         }
     }
 
+    
     useEffect(() => {
         window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
       }, []);
